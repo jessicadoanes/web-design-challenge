@@ -1,56 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>web-design-challenge</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
 
-  <h1>jessica</h1>
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" color: rgb(255, 255, 255) href="index.html">Home</a>
+      </div>
+    
 
-  <img src="https://assets.nintendo.com/image/upload/c_pad,f_auto,h_613,q_auto,w_1089/ncom/en_US/games/switch/a/animal-crossing-new-horizons-switch/hero?v=2021052015" alt="Your Name">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+        <ul class="nav navbar-nav navbar-right">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <li class="dropdown"></li>
+            <li><a href="comparisons.html">Comparisons</a></li>
+            <li><a href="data.html">Data</a></li>
+            <ul class="dropdown-menu">
+              <li><a href="temperature.html">Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="wind speed.html">Wind Speed</a></li>
+        </li>
+      </ul>
+      </div>
+    </div>
+    </nav>
 
-  <p>My name is Jessica. This is my home page for my default website. This page contains no real information, just a bunch of stuff copied from other places. </p>
-  <p>i am water
-    soft enough
-    to offer life
-    tough enough
-    to drown it away
-    -rupi kaur
-  </p>
+  <header class="header">
+    <h1>Latitude Analysis Dashboard</h1>
+  </header>
+  <main>
+    <section class="posts">
+      <article class="post">
+        
+        <p>The Latitude Analysis Dashboard with Attitude! is an interactive data visualization tool designed for users to understand the analysis associated with the Python API Homework - What's the Weather Like? assignment.
+          <p style color: rgb(5, 9, 255)></p>
+        
+        </p>
+      </article>
+    </section>
+  </main>
+</div>
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">donotcontactme@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-    <li><strong>Twitter:</strong> <a href="#">Erased becuase people are too sensitive</a></li>
-  </ul>
+</body>
 
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Hobbit</td>
-      <td>Hot Fuzz</td>
-      <td>Dark Souls</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>The Last of Us</td>
-    </tr>
-    <tr>
-      <td>The Girl With All the Gifts</td>
-      <td>The Matrix</td>
-      <td>Dragon Age: Origins</td>
-    </tr>
-  </table>
-
-  <!-- Bonus link to last class page -->
-  <a href="../../../../1/Activities/04-Stu_MyFirst_HTML/Solved/my-first-bonus.html">My First HTML Bonus</a>
+</html>
+ 
 
 </body>
 
